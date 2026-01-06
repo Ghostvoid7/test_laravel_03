@@ -1,6 +1,6 @@
-Це вебзастосунок, розроблений на базі Laravel v12.14.1 з використанням PHP 8.3.21.
+This is a web application developed on Laravel v12.14.1 using PHP 8.3.21.
 
-🧰 Використані технології
+🧰 Technologies used
 Laravel 12.14.1
 
 PHP 8.3.21
@@ -14,35 +14,35 @@ MySQL
 phpMyAdmin
 
 
-Встановлення:
+Installing:
 
-1. Клонувати репозиторій:
+1. Clone repository:
 
         git clone https://github.com/Ghostvoid7/test_laravel_03.git
 
-2. Запустити Docker-контейнери:
+2. Run Docker-containers:
         
         docker-compose up -d --build
 
-3. Увійти до контейнеру:
+3. Enter to container:
     
         docker-compose exec php bash
 
-4. Виконати міграції
+4. Run migrations
 
         php artisan migrate
 
 
-Додати сідери Постів:
+Add seed Posts:
 
     php artisan db:seed PostsSeeder
 
-Доступ до застосунку
+Access to app
 
-Сайт: http://localhost:8000
+Site: http://localhost:8000
 
 phpMyAdmin: http://localhost:8081
 
-Логін: root
+Login: root
 
-Пароль: 12345
+Password: 12345
