@@ -16,9 +16,13 @@ phpMyAdmin
 
 Installing:
 
-1. Clone repository:
+0. Clone repository:
 
         git clone https://github.com/Ghostvoid7/test_laravel_03.git
+
+1. Enter to directory
+
+        cd test_laravel_03
 
 2. Run Docker-containers:
         
@@ -28,14 +32,20 @@ Installing:
     
         docker-compose exec php bash
 
-4. Run migrations
+4. Install Composer dependencies:
+
+        composer install
+
+5. Change environment variables
+
+6. Run migrations
 
         php artisan migrate
 
 
-Add seed Posts:
+7. Add seed Posts:
 
-    php artisan db:seed PostsSeeder
+        php artisan db:seed PostsSeeder
 
 Access to app
 
